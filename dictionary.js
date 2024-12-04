@@ -5,7 +5,7 @@ externalDictionary = [
         "word": "Q'adrasq",
         "uses": [
             {
-                "pronunciation": "kya'drask",
+                "pronunciation": "kja'drask",
                 "hasBadge": true,
                 "badgeText": "Archaic",
                 "type": "NOUN",
@@ -20,7 +20,7 @@ externalDictionary = [
         "word": "Q'atsuq",
         "uses": [
             {
-                "pronunciation": "kya'tsuk",
+                "pronunciation": "kja'tsuk",
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "NOUN",
