@@ -29,5 +29,50 @@ externalDictionary = [
                 "gloss": ""
             }
         ]
+    },
+    {
+        "word": "Casn",
+        "pronunciation": "'θa.sən",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "VERB",
+                "explanation": "to speak",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "'a",
+        "pronunciation": "ja",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "PRONOUN",
+                "explanation": "First person singular nominative pronoun, I",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "'af",
+        "pronunciation": "jaf",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "PRONOUN",
+                "explanation": "First person singular accusative pronoun, I",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
     }
 ]
