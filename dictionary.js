@@ -1,34 +1,34 @@
-dictionaryDescription = "The official Q'adrasq Dictionary",
+dictionaryDescription = "The official Q'adrasq Dictionary.",
 dictionaryHaveGlosses = false,
 externalDictionary = [
     {
         "word": "Q'adrasq",
+        "pronunciation": "kja'drask",
         "uses": [
             {
-                "pronunciation": "kja'drask",
-                "hasBadge": true,
-                "badgeText": "Archaic",
+                "hasBadge": false,
+                "badgeText": "",
                 "type": "NOUN",
                 "explanation": "Language spoken by the Q'a people.",
-                "example": "Example of this usage (in Imperius)",
-                "exampleTranslation": "Example of this usage (Translation)",
+                "example": "",
+                "exampleTranslation": "",
                 "gloss": ""
             }
         ]
     },
     {
         "word": "Q'atsuq",
+        "pronunciation": "kja'tsuk",
         "uses": [
             {
-                "pronunciation": "kja'tsuk",
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "NOUN",
                 "explanation": "The people that speak the Q'a language.",
-                "example": "Example of this usage (in Imperius)",
-                "exampleTranslation": "Example of this usage (Translation)",
+                "example": "",
+                "exampleTranslation": "",
                 "gloss": ""
             }
         ]
     }
-] 
+]

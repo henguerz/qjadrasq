@@ -19,12 +19,14 @@
         <div class="row">
             <div class="col-sm-10">
                 <div class="row mb-3">
-                    <label for="word" class="col-sm-2">Word: </label>
+                    <label for="word" class="col-sm-2">Word:</label>
                     <input type="text" class="form-control col-sm-5" id="word" v-model="currentWord.word" />
+
+                    <button style="margin-left:1%;" class="btn btn-outline-danger" v-on:click="deleteWord(currentWord.word)">Delete Word</button>
                 </div>
                 <div class="row mb-3">
-                    <label for="pronunciation" class="col-sm-2">Pronuncation:</label>
-                    <input type="text" class="form-control col-sm-5" id="pronunciation" v-model="pronunciation">
+                    <label for="pronunciation" class="col-sm-2">Pronunciation:</label>
+                    <input type="text" class="form-control col-sm-5" id="pronunciation" v-model="currentWord.pronunciation">
                 </div>
                 <div class="row">
                     <label for="body" class="col-sm-2 col-form-label">Uses:</label>
@@ -98,10 +100,6 @@
                     <div class="btn-group btn-group-sm">
                         <button v-on:click="continueTo(value.word)"
                             v-bind:class="'btn ' + (value.active ? 'btn-warning' : 'btn-secondary') ">{{ value.word }}
-                            &ndash; {{ value.uses[0].explanation.split(" ")[0].split(",")[0] }}</button>
-                    </div>
-                    <div class="btn-group btn-group-sm" v-if="!value.active">
-                        <button class="btn btn-outline-danger" v-on:click="removeWord(value.word)">-</button>
                     </div>
                 </div>
                 <button class="btn btn-primary btn-sm" v-on:click="addWord()">+ Add Word</button>
@@ -176,18 +174,19 @@
                 addWord: function () {
                     this.dictionary.push({
                         word: "word",
+                        pronunciation: "ipa",
                         uses: [{
                             hasBadge: false,
                             badgeText: "",
                             type: "Word Type",
                             explanation: "Explain usage here.",
-                            example: "Example of this usage (in Imperius)",
-                            gloss: "help-less-ness",
-                            exampleTranslation: "Example of this usage (Translation)"
+                            example: "Usage example (in Q'adrasq)",
+                            exampleTranslation: "Usage example (translated)",
+                            gloss: "help-less-ness"
                         }]
                     });
                 },
-                removeWord: function (word) {
+                deleteWord: function (word) {
                     var idx = 0;
                     for (var i = 0; i < this.dictionary.length; i++) {
                         if (this.dictionary[i].word == word) {
@@ -195,8 +194,10 @@
                             break;
                         }
                     }
-                    if (confirm('Really wanna delete this word: [ ' + this.dictionary[idx].word + ' ] ?'))
+                    if (confirm('Delete the word "' + this.dictionary[idx].word + '"?')) {
                         this.dictionary.splice(idx, 1);
+                        console.log(this.dictionary[0].word);
+                    }
                 },
                 addUse: function () {
                     this.currentWord.uses.push({
@@ -204,8 +205,8 @@
                         badgeText: "",
                         type: "WORD TYPE",
                         explanation: "Explain usage here.",
-                        example: "Example of this usage (in Imperius)",
-                        exampleTranslation: "Example of this usage (Translation)",
+                        example: "Usage example (in Q'adrasq)",
+                        exampleTranslation: "Usage example (translated)",
                         gloss: "help-less-ness"
                     });
                 },
@@ -214,6 +215,7 @@
                         this.currentWord.uses.splice(idx, 1);
                 },
                 continueTo: function (label) {
+                    console.log(label)
                     for (var i = 0; i < this.dictionary.length; i++) {
                         if (this.dictionary[i].word == label) {
                             this.index = i;
