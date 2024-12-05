@@ -14,6 +14,10 @@
     --text-color: #e9ebf0;
 }
 
+.hidden{
+    display: none;
+}
+
 #theme-switch svg:last-child{
     display: none;
 }
@@ -24,9 +28,29 @@
     display: block;
 }
 
+hr{
+    border-color: var(--base-variant)
+}
+
+.btn:hover{
+    color: var(--text-color);
+}
+.btn{
+    fill: var(--text-color);
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
 #theme-switch{
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
+}
+
+#contents{
+    color: var(--text-color);
+}
+#contents li{
+    background-color: var(--base-variant);
 }
 
 .form-control{
@@ -35,6 +59,8 @@
     background-color: var(--base-variant);
 }
 .jumbotron{
+    padding-top: 2%;
+    padding-bottom: 4%;
     background-color: var(--base-variant);
 }
 

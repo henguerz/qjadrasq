@@ -1,4 +1,3 @@
-dictionaryDescription = "The official Q'adrasq Dictionary.",
 dictionaryHaveGlosses = false,
 externalDictionary = [
     {
