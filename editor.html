@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./dictionary.js"></script>
     <title>Dictionary Editor</title>
 </head>
 
-<body>
+<body class="darkmode">
     <div class="container mt-4 mb-4" id="app">
         <div class="row">
             <div class="col-sm-10">
@@ -30,11 +30,10 @@
                 </div>
                 <div class="row">
                     <label for="body" class="col-sm-2 col-form-label">Uses:</label>
-                    <div class="col-sm-10">
+                    <div style="padding-left: 0;" class="col-sm-10">
                         <div class="row form-group" v-for="(value, idx) in currentWord.uses">
                             <div class="col-sm-2">
-                                <h4>Use {{ idx + 1 }} <button class="btn btn-sm btn-outline-danger"
-                                        v-on:click="removeUse(idx)">-</button>:</h4>
+                                <h4><button class="btn btn-sm btn-outline-danger" v-on:click="removeUse(idx)">-</button> Use {{ idx + 1 }} :</h4>
                             </div>
                             <div class="col-sm-10">
                                 <div class="row mb-1">
@@ -109,7 +108,7 @@
                 <label>Click <button class="btn btn-link" v-on:click="copyToClipboard('src')">copy</button> to copy
                     your dictionary (similar to <kbd>Ctrl + C</kbd>), so you can save it to
                     <i>dictionary.js</i>.</label>
-                <textarea id="src" readonly v-model="dictionaryToString" class="form-control" rows="10"></textarea>
+                <textarea style="background-color: var(--base-variant);" id="src" readonly v-model="dictionaryToString" class="form-control" rows="10"></textarea>
             </div>
         </div>
     </div>

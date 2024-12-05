@@ -1,0 +1,44 @@
+:root{
+    --base-color: #fff;
+    --base-variant: #e9ecef;
+    --primary-color: #a4a9b3;
+    --secondary-color: #858b94;
+    --text-color: black;
+}
+
+.darkmode{
+    --base-color: #0f131a;
+    --base-variant: #1a1d24;
+    --primary-color: #3c3f43;
+    --secondary-color: #5c6066;
+    --text-color: #e9ebf0;
+}
+
+#theme-switch svg:last-child{
+    display: none;
+}
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
+
+#theme-switch{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.form-control{
+    color: var(--text-color);
+    border-color: var(--base-variant);
+    background-color: var(--base-variant);
+}
+.jumbotron{
+    background-color: var(--base-variant);
+}
+
+body{
+    color: var(--text-color);
+    background-color: var(--base-color);
+}
