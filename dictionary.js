@@ -38,7 +38,7 @@ externalDictionary = [
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "VERB",
-                "explanation": "to speak",
+                "explanation": "To speak.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
@@ -53,7 +53,7 @@ externalDictionary = [
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "PRONOUN",
-                "explanation": "First person singular nominative pronoun, I",
+                "explanation": "First person singular nominative pronoun; I.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
@@ -68,7 +68,7 @@ externalDictionary = [
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "PRONOUN",
-                "explanation": "First person singular accusative pronoun, I",
+                "explanation": "First person singular accusative pronoun; I.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
