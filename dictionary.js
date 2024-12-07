@@ -46,6 +46,60 @@ externalDictionary = [
         ]
     },
     {
+        "word": "Fa",
+        "pronunciation": "fa",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "Three.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Fafn",
+        "pronunciation": "'fa.fən",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "Third.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Ong",
+        "pronunciation": "oŋ",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "One.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            },
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "First.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
         "word": "Q'adrasq",
         "pronunciation": "kja'drask",
         "uses": [
@@ -72,6 +126,36 @@ externalDictionary = [
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": ""
+            }
+        ]
+    },
+    {
+        "word": "Tre",
+        "pronunciation": "tre",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "Two.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Trefn",
+        "pronunciation": "'tre.fən",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "Second.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
             }
         ]
     }
