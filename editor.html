@@ -105,9 +105,9 @@
             </div>
             <hr />
             <div class="col-sm-12 mt-4">
-                <label>Click <button class="btn btn-link" v-on:click="copyToClipboard('src')">copy</button> to copy
-                    your dictionary (similar to <kbd>Ctrl + C</kbd>), so you can save it to
-                    <i>dictionary.js</i>.</label>
+                <hr/>
+                <button style="margin-left:1%;" class="btn btn-outline-primary" v-on:click="sortDictionary">Sort</button>
+                <button class="btn btn-outline-secondary" v-on:click="copyToClipboard('src')">Copy</button>
                 <textarea style="background-color: var(--base-variant);" id="src" readonly v-model="dictionaryToString" class="form-control" rows="10"></textarea>
             </div>
         </div>
@@ -130,15 +130,6 @@
                 },
                 dictionaryToString: function () {
                     return "dictionaryHaveGlosses = " + this.hasGlosses + ",\n" + "externalDictionary = " + JSON.stringify(this.dictionary, null, 4);
-                },
-                sortedDictionary: function () {
-                    return this.dictionary.sort(function (a, b) {
-                        if (a.word < b.word)
-                            return -1;
-                        if (a.word > b.word)
-                            return 1;
-                        return 0;
-                    });
                 }
             },
             methods: {
@@ -184,6 +175,15 @@
                         }]
                     });
                 },
+                sortDictionary: function () {
+                    this.dictionary.sort(function (a, b) {
+                        if (a.word.toLowerCase() < b.word.toLowerCase())
+                            return -1;
+                        if (a.word.toLowerCase() > b.word.toLowerCase())
+                            return 1;
+                        return 0;
+                    });
+                },
                 deleteWord: function (word) {
                     var idx = 0;
                     for (var i = 0; i < this.dictionary.length; i++) {
@@ -194,7 +194,7 @@
                     }
                     if (confirm('Delete the word: "' + this.dictionary[idx].word + '"?')) {
                         this.dictionary.splice(idx, 1);
-                        console.log(this.dictionary[0].word);
+                        this.continueTo(this.dictionary[0].word);
                     }
                 },
                 addUse: function () {

@@ -1,51 +1,6 @@
 dictionaryHaveGlosses = false,
 externalDictionary = [
     {
-        "word": "Q'adrasq",
-        "pronunciation": "kja'drask",
-        "uses": [
-            {
-                "hasBadge": false,
-                "badgeText": "",
-                "type": "NOUN",
-                "explanation": "Language spoken by the Q'a people.",
-                "example": "",
-                "exampleTranslation": "",
-                "gloss": ""
-            }
-        ]
-    },
-    {
-        "word": "Q'atsuq",
-        "pronunciation": "kja'tsuk",
-        "uses": [
-            {
-                "hasBadge": false,
-                "badgeText": "",
-                "type": "NOUN",
-                "explanation": "The people that speak the Q'a language.",
-                "example": "",
-                "exampleTranslation": "",
-                "gloss": ""
-            }
-        ]
-    },
-    {
-        "word": "Casn",
-        "pronunciation": "'θa.sən",
-        "uses": [
-            {
-                "hasBadge": false,
-                "badgeText": "",
-                "type": "VERB",
-                "explanation": "To speak.",
-                "example": "",
-                "exampleTranslation": "",
-                "gloss": "help-less-ness"
-            }
-        ]
-    },
-    {
         "word": "'a",
         "pronunciation": "ja",
         "uses": [
@@ -72,6 +27,51 @@ externalDictionary = [
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Casn",
+        "pronunciation": "'θa.sən",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "VERB",
+                "explanation": "To speak.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Q'adrasq",
+        "pronunciation": "kja'drask",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "NOUN",
+                "explanation": "Language spoken by the Q'a people.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": ""
+            }
+        ]
+    },
+    {
+        "word": "Q'atsuq",
+        "pronunciation": "kja'tsuk",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "NOUN",
+                "explanation": "The people that speak the Q'a language.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": ""
             }
         ]
     }
