@@ -8,7 +8,7 @@ externalDictionary = [
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "PRONOUN",
-                "explanation": "First person singular nominative pronoun; I.",
+                "explanation": "Singular nominative first person pronoun; I.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
@@ -23,7 +23,7 @@ externalDictionary = [
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "PRONOUN",
-                "explanation": "First person singular accusative pronoun; I.",
+                "explanation": "Singular accusative first person pronoun; I.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
