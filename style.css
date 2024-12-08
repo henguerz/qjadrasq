@@ -14,11 +14,16 @@
     --text-color: #e9ebf0;
 }
 
-.hidden{
-    display: none;
+hr{
+    border-color: var(--base-variant)
 }
 
-#theme-switch svg:last-child{
+body{
+    color: var(--text-color);
+    background-color: var(--base-color);
+}
+
+.hidden{
     display: none;
 }
 .darkmode #theme-switch svg:first-child{
@@ -28,10 +33,6 @@
     display: block;
 }
 
-hr{
-    border-color: var(--base-variant)
-}
-
 .btn:hover{
     color: var(--text-color);
 }
@@ -39,6 +40,10 @@ hr{
     fill: var(--text-color);
     color: var(--text-color);
     background-color: var(--primary-color);
+}
+
+#theme-switch svg:last-child{
+    display: none;
 }
 
 #theme-switch{
@@ -58,13 +63,17 @@ hr{
     border-color: var(--base-variant);
     background-color: var(--base-variant);
 }
+
 .jumbotron{
     padding-top: 2%;
     padding-bottom: 4%;
     background-color: var(--base-variant);
 }
 
-body{
+#dictionary-filter input{
+    border-color: var(--primary-color);
     color: var(--text-color);
-    background-color: var(--base-color);
+}
+#dictionary-filter input:focus{
+    background-color: var(--base-variant)
 }
