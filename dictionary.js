@@ -82,7 +82,7 @@ externalDictionary = [
             {
                 "hasBadge": false,
                 "badgeText": "",
-                "type": "ADJECTIVE",
+                "type": "NOUN",
                 "explanation": "One.",
                 "example": "",
                 "exampleTranslation": "",
