@@ -30,12 +30,6 @@
         </div>
         <div id="dictionary-filter" class="jumbotron" style="padding: 1%;">
             <div style="margin: 0;" class="input-group mb-3">
-                <select id="word-class-dropdown" style="border-bottom-right-radius: 0; border-top-right-radius: 0;" class="btn dropdown-toggle" data-bs-toggle="dropdown">
-                    <option value="any">Any</option>
-                    <option value="noun">Noun</option>
-                    <option value="adjective">Adjective</option>
-                    <option value="pronoun">Pronoun</option>
-                </select>
                 <input id="search-bar" onkeyup="filter()" type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search Word">
             </div>
         </div>
@@ -114,6 +108,8 @@
         })
     </script>
     <script>
+	// code temporarily out of use
+	    
         document.getElementById("word-class-dropdown").addEventListener("click", function() {
             var input, filter, wordList, word, i, txtValue, dropdown, wordClass, wordType;
             dropdown = document.getElementById("word-class-dropdown");
