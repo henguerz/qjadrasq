@@ -83,15 +83,6 @@ externalDictionary = [
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "ADJECTIVE",
-                "explanation": "One.",
-                "example": "",
-                "exampleTranslation": "",
-                "gloss": "help-less-ness"
-            },
-            {
-                "hasBadge": false,
-                "badgeText": "",
-                "type": "ADJECTIVE",
                 "explanation": "First.",
                 "example": "",
                 "exampleTranslation": "",
