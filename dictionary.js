@@ -47,7 +47,7 @@ externalDictionary = [
     },
     {
         "word": "Fa",
-        "pronunciation": "fa",
+        "pronunciation": "ɸa",
         "uses": [
             {
                 "hasBadge": false,
@@ -62,7 +62,7 @@ externalDictionary = [
     },
     {
         "word": "Fafn",
-        "pronunciation": "'fa.fən",
+        "pronunciation": "'ɸa.ɸən",
         "uses": [
             {
                 "hasBadge": false,
@@ -84,6 +84,15 @@ externalDictionary = [
                 "badgeText": "",
                 "type": "ADJECTIVE",
                 "explanation": "First.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            },
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "One.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
@@ -137,13 +146,28 @@ externalDictionary = [
     },
     {
         "word": "Trefn",
-        "pronunciation": "'tre.fən",
+        "pronunciation": "'tre.ɸən",
         "uses": [
             {
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "ADJECTIVE",
                 "explanation": "Second.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "śï",
+        "pronunciation": "ʃu",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "verb",
+                "explanation": "To be; to exist.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
