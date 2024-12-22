@@ -112,13 +112,12 @@
         function filter() {
             var input, filter, wordList, word, a, i, txtValue;
             input = document.getElementById("search-bar");
-            filter = input.value.toLowerCase().replace("j", "'");
+            filter = input.value.toLowerCase().replace("j", "'").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
             wordList = document.getElementById("word-list");
             word = wordList.getElementsByClassName("word")
             console.log("--------" + filter)
             for(i = 0; i < word.length; i++) {
-                console.log(word[i].id)
-                txtValue = word[i].id;
+                txtValue = word[i].id.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
                 console.log(txtValue)
                 if(txtValue.toLowerCase().indexOf(filter) > -1) {
                     word[i].style.display = "";
