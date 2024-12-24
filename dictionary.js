@@ -31,7 +31,76 @@ externalDictionary = [
         ]
     },
     {
-        "word": "Casn",
+        "word": "'az",
+        "pronunciation": "jað",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "PRONOUN",
+                "explanation": "(On earth) period of 24 hours; day.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "-ş",
+        "pronunciation": "əʃ",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "AFFIX",
+                "explanation": "Used to form comparatives of adjectives and adverbs.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Briv",
+        "pronunciation": "briv",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "Illuminated; bright.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            },
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "AFFIX",
+                "explanation": "Illuminated; bright.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Briv'az",
+        "pronunciation": "'briv.jað",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "PRONOUN",
+                "explanation": "Period of time when the sun is visible in the sky.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Cassn",
         "pronunciation": "'θa.sən",
         "uses": [
             {
@@ -39,6 +108,45 @@ externalDictionary = [
                 "badgeText": "",
                 "type": "VERB",
                 "explanation": "To speak.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Daq",
+        "pronunciation": "dak",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "Not illuminated; dark.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            },
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "AFFIX",
+                "explanation": "Not illuminated; dark.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Daq'az",
+        "pronunciation": "'dak.jað",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "PRONOUN",
+                "explanation": "Period of time when the sun is NOT visible in the sky.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
@@ -101,7 +209,7 @@ externalDictionary = [
     },
     {
         "word": "Q'adrasq",
-        "pronunciation": "kja'drask",
+        "pronunciation": "'kja.drask",
         "uses": [
             {
                 "hasBadge": false,
@@ -115,8 +223,8 @@ externalDictionary = [
         ]
     },
     {
-        "word": "Q'atsuq",
-        "pronunciation": "kja'tsuk",
+        "word": "Q'atssuq",
+        "pronunciation": "'kja.tsuk",
         "uses": [
             {
                 "hasBadge": false,
@@ -160,13 +268,13 @@ externalDictionary = [
         ]
     },
     {
-        "word": "śï",
+        "word": "Şsï",
         "pronunciation": "ʃu",
         "uses": [
             {
                 "hasBadge": false,
                 "badgeText": "",
-                "type": "verb",
+                "type": "VERB",
                 "explanation": "To be; to exist.",
                 "example": "",
                 "exampleTranslation": "",
