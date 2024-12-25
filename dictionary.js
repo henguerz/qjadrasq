@@ -37,7 +37,7 @@ externalDictionary = [
             {
                 "hasBadge": false,
                 "badgeText": "",
-                "type": "PRONOUN",
+                "type": "NOUN",
                 "explanation": "(On earth) period of 24 hours; day.",
                 "example": "",
                 "exampleTranslation": "",
@@ -91,7 +91,7 @@ externalDictionary = [
             {
                 "hasBadge": false,
                 "badgeText": "",
-                "type": "PRONOUN",
+                "type": "NOUN",
                 "explanation": "Period of time when the sun is visible in the sky.",
                 "example": "",
                 "exampleTranslation": "",
@@ -145,7 +145,7 @@ externalDictionary = [
             {
                 "hasBadge": false,
                 "badgeText": "",
-                "type": "PRONOUN",
+                "type": "NOUN",
                 "explanation": "Period of time when the sun is NOT visible in the sky.",
                 "example": "",
                 "exampleTranslation": "",
