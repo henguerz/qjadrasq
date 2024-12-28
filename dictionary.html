@@ -29,7 +29,7 @@
             <p>The Official Q'adrasq Dictionary.</p>
         </div>
         <div id="dictionary-filter" class="jumbotron" style="padding: 1%;">
-            <div style="margin: 0;" class="input-group mb-3">
+            <div style="margin: 0 !important" class="input-group mb-3">
                 <input id="search-bar" onkeyup="filter()" type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search Word">
             </div>
         </div>
@@ -47,7 +47,7 @@
                     </h6>
                 </div>
                 <div v-for="use in item.uses">
-                    <h5><span v-if="use.hasBadge" class="badge badge-secondary"><samp>{{ use.badgeText }}</samp></span> <span class="badge badge-primary badge-pill"><i>{{ use.type }}</i></span> {{ use.explanation }}</h5>
+                    <h5><span v-if="use.hasBadge" class="badge badge-secondary"><samp>{{ use.badgeText }}</samp></span> <span class="badge badge-primary badge-pill"><i>{{ use.gender }} {{ use.type }}</i></span> {{ use.explanation }}</h5>
                     <strong>{{ use.example }}</strong>
                     <div v-if="glosses">
                         <samp>{{ use.gloss }}</samp>

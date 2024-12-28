@@ -1,7 +1,7 @@
 dictionaryHaveGlosses = false,
 externalDictionary = [
     {
-        "word": "'a",
+        "word": "'A",
         "pronunciation": "ja",
         "uses": [
             {
@@ -11,12 +11,13 @@ externalDictionary = [
                 "explanation": "Singular nominative first person pronoun; I.",
                 "example": "",
                 "exampleTranslation": "",
-                "gloss": "help-less-ness"
+                "gloss": "help-less-ness",
+                "gender": ""
             }
         ]
     },
     {
-        "word": "'af",
+        "word": "'Af",
         "pronunciation": "jaf",
         "uses": [
             {
@@ -31,13 +32,14 @@ externalDictionary = [
         ]
     },
     {
-        "word": "'az",
+        "word": "'Az",
         "pronunciation": "jað",
         "uses": [
             {
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "NOUN",
+                "gender": "FIRST INANIMATE",
                 "explanation": "(On earth) period of 24 hours; day.",
                 "example": "",
                 "exampleTranslation": "",
@@ -95,7 +97,8 @@ externalDictionary = [
                 "explanation": "Period of time when the sun is visible in the sky.",
                 "example": "",
                 "exampleTranslation": "",
-                "gloss": "help-less-ness"
+                "gloss": "help-less-ness",
+                "gender": "FIRST INANIMATE"
             }
         ]
     },
@@ -149,6 +152,22 @@ externalDictionary = [
                 "explanation": "Period of time when the sun is NOT visible in the sky.",
                 "example": "",
                 "exampleTranslation": "",
+                "gloss": "help-less-ness",
+                "gender": "FIRST INANIMATE"
+            }
+        ]
+    },
+    {
+        "word": "Ev",
+        "pronunciation": "ev",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "Alive.",
+                "example": "",
+                "exampleTranslation": "",
                 "gloss": "help-less-ness"
             }
         ]
@@ -160,11 +179,12 @@ externalDictionary = [
             {
                 "hasBadge": false,
                 "badgeText": "",
-                "type": "ADJECTIVE",
+                "type": "NUMERAL",
                 "explanation": "Three.",
                 "example": "",
                 "exampleTranslation": "",
-                "gloss": "help-less-ness"
+                "gloss": "help-less-ness",
+                "gender": ""
             }
         ]
     },
@@ -184,23 +204,15 @@ externalDictionary = [
         ]
     },
     {
-        "word": "Ong",
-        "pronunciation": "oŋ",
+        "word": "Go",
+        "pronunciation": "gɛ",
         "uses": [
             {
                 "hasBadge": false,
                 "badgeText": "",
-                "type": "ADJECTIVE",
-                "explanation": "First.",
-                "example": "",
-                "exampleTranslation": "",
-                "gloss": "help-less-ness"
-            },
-            {
-                "hasBadge": false,
-                "badgeText": "",
-                "type": "ADJECTIVE",
-                "explanation": "One.",
+                "type": "ADVERB",
+                "gender": "",
+                "explanation": "Many times; frequently.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
@@ -218,7 +230,8 @@ externalDictionary = [
                 "explanation": "Language spoken by the Q'a people.",
                 "example": "",
                 "exampleTranslation": "",
-                "gloss": ""
+                "gloss": "",
+                "gender": "FIRST INANIMATE"
             }
         ]
     },
@@ -233,7 +246,8 @@ externalDictionary = [
                 "explanation": "The people that speak the Q'a language.",
                 "example": "",
                 "exampleTranslation": "",
-                "gloss": ""
+                "gloss": "",
+                "gender": "FIRST INANIMATE"
             }
         ]
     },
@@ -244,7 +258,7 @@ externalDictionary = [
             {
                 "hasBadge": false,
                 "badgeText": "",
-                "type": "ADJECTIVE",
+                "type": "NUMERAL",
                 "explanation": "Two.",
                 "example": "",
                 "exampleTranslation": "",
@@ -261,6 +275,30 @@ externalDictionary = [
                 "badgeText": "",
                 "type": "ADJECTIVE",
                 "explanation": "Second.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Ön",
+        "pronunciation": "ɔn",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "explanation": "First.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            },
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "NUMERAL",
+                "explanation": "One.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
