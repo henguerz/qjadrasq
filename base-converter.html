@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="./dictionary.js"></script>
+        <title>Base Converter</title>
+    </head>
+
+    <body>
+        <div class="container" id="app">
+            <div class="jumbotron">
+                <a href="https://henguerz.github.io/qjadrasq/" class="btn">
+                    <svg style="font-size: smaller;" xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#00000"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+                    HOME PAGE
+                </a>
+                <button id="theme-switch" class="float-right btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#00000"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+                </button>
+                <h1>Base Converter</h1>
+                <p>Here you can easily convert numbers between base 10 and base 8.</p>
+            </div>
+            <div id="base-converter" class="jumbotron" style="padding: 1%;">
+                <div class="input-group mb-3">
+                    <input id="base10to8input" type="text" class="form-control" placeholder="Base 10" onkeyup="base10to8()">
+                    <input id="base10to8result" type="text" class="form-control" placeholder="Base 8" readonly>
+                </div>
+                <div class="input-group">
+                    <input id="base8to10input" type="text" class="form-control" placeholder="Base 8" onkeyup="base8to10()">
+                    <input id="base8to10result" type="text" class="form-control" placeholder="Base 10" readonly>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            let darkmode = localStorage.getItem('darkmode')
+            const themeSwitch = document.getElementById('theme-switch')
+    
+            const enableDarkmode = () => {
+                document.body.classList.add('darkmode')
+                localStorage.setItem('darkmode', 'active')
+            }
+            const disableDarkmode = () => {
+                document.body.classList.remove('darkmode')
+                localStorage.setItem('darkmode', null)
+            }
+    
+            if(darkmode === "active") enableDarkmode()
+    
+            themeSwitch.addEventListener("click", () => {
+                console.log('theme switched??/')
+                darkmode = localStorage.getItem('darkmode')
+                darkmode !== "active" ? enableDarkmode() : disableDarkmode()
+            })
+        </script>
+        <script>
+            function base10to8() {
+                let input = document.getElementById("base10to8input").value
+                let result = document.getElementById("base10to8result")
+
+                if(input == "") return result.value = ""
+
+                result.value = Number(input).toString(8)
+            }
+
+            function base8to10() {
+                let input = document.getElementById("base8to10input").value
+                let result = document.getElementById("base8to10result")
+
+                if(input == "") return result.value = ""
+
+                if(input.indexOf('8') !== -1 || input.indexOf('9') !== -1) {
+                    result.value = "Invalid base 8 number."
+                } else {
+                    result.value = parseInt(Number(input), 8).toString();
+                }
+            }
+        </script>
+    </body>
+</html>
