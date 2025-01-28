@@ -48,7 +48,7 @@ externalDictionary = [
         ]
     },
     {
-        "word": "-ş",
+        "word": "-ch",
         "pronunciation": "əʃ",
         "uses": [
             {
@@ -103,14 +103,14 @@ externalDictionary = [
         ]
     },
     {
-        "word": "Cassn",
-        "pronunciation": "'θa.sən",
+        "word": "chï",
+        "pronunciation": "ʃu",
         "uses": [
             {
                 "hasBadge": false,
                 "badgeText": "",
                 "type": "VERB",
-                "explanation": "To speak.",
+                "explanation": "To be; to exist.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
@@ -236,7 +236,7 @@ externalDictionary = [
         ]
     },
     {
-        "word": "Q'atssuq",
+        "word": "Q'atcuq",
         "pronunciation": "'kja.tsuk",
         "uses": [
             {
@@ -248,6 +248,21 @@ externalDictionary = [
                 "exampleTranslation": "",
                 "gloss": "",
                 "gender": "FIRST INANIMATE"
+            }
+        ]
+    },
+    {
+        "word": "Sacn",
+        "pronunciation": "'θa.sən",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "VERB",
+                "explanation": "To speak.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
             }
         ]
     },
@@ -299,21 +314,6 @@ externalDictionary = [
                 "badgeText": "",
                 "type": "NUMERAL",
                 "explanation": "One.",
-                "example": "",
-                "exampleTranslation": "",
-                "gloss": "help-less-ness"
-            }
-        ]
-    },
-    {
-        "word": "Şsï",
-        "pronunciation": "ʃu",
-        "uses": [
-            {
-                "hasBadge": false,
-                "badgeText": "",
-                "type": "VERB",
-                "explanation": "To be; to exist.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
