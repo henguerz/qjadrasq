@@ -135,8 +135,8 @@ externalDictionary = [
                 "type": "FIRST INANIMATE NOUN",
                 "gender": "",
                 "explanation": "Rain.",
-                "example": "Usage example (in Q'adrasq)",
-                "exampleTranslation": "Usage example (translated)",
+                "example": "",
+                "exampleTranslation": "",
                 "gloss": "help-less-ness"
             }
         ]
@@ -148,7 +148,7 @@ externalDictionary = [
             {
                 "hasBadge": false,
                 "badgeText": "",
-                "type": "",
+                "type": "PRONOUN",
                 "gender": "",
                 "explanation": "Used after an accusative pronoun to turn it into a reflexive pronoun; -self.",
                 "example": "",
