@@ -48,6 +48,22 @@ externalDictionary = [
         ]
     },
     {
+        "word": "'E",
+        "pronunciation": "je",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "gender": "",
+                "explanation": "Greater; more.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
         "word": "-ch",
         "pronunciation": "əʃ",
         "uses": [
@@ -56,6 +72,22 @@ externalDictionary = [
                 "badgeText": "",
                 "type": "AFFIX",
                 "explanation": "Used to form comparatives of adjectives and adverbs.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "A",
+        "pronunciation": "a",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ARTICLE",
+                "gender": "",
+                "explanation": "Second inanimate article; the.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
@@ -74,21 +106,12 @@ externalDictionary = [
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
-            },
-            {
-                "hasBadge": false,
-                "badgeText": "",
-                "type": "AFFIX",
-                "explanation": "Illuminated; bright.",
-                "example": "",
-                "exampleTranslation": "",
-                "gloss": "help-less-ness"
             }
         ]
     },
     {
         "word": "Briv'az",
-        "pronunciation": "'briv.jað",
+        "pronunciation": "briv.'jað",
         "uses": [
             {
                 "hasBadge": false,
@@ -99,6 +122,38 @@ externalDictionary = [
                 "exampleTranslation": "",
                 "gloss": "help-less-ness",
                 "gender": "FIRST INANIMATE"
+            }
+        ]
+    },
+    {
+        "word": "Caa",
+        "pronunciation": "sa.'ʔa",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "FIRST INANIMATE NOUN",
+                "gender": "",
+                "explanation": "Rain.",
+                "example": "Usage example (in Q'adrasq)",
+                "exampleTranslation": "Usage example (translated)",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Ces",
+        "pronunciation": "ceθ",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "",
+                "gender": "",
+                "explanation": "Used after an accusative pronoun to turn it into a reflexive pronoun; -self.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
             }
         ]
     },
@@ -129,21 +184,12 @@ externalDictionary = [
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
-            },
-            {
-                "hasBadge": false,
-                "badgeText": "",
-                "type": "AFFIX",
-                "explanation": "Not illuminated; dark.",
-                "example": "",
-                "exampleTranslation": "",
-                "gloss": "help-less-ness"
             }
         ]
     },
     {
         "word": "Daq'az",
-        "pronunciation": "'dak.jað",
+        "pronunciation": "dak.'jað",
         "uses": [
             {
                 "hasBadge": false,
@@ -220,8 +266,120 @@ externalDictionary = [
         ]
     },
     {
+        "word": "I",
+        "pronunciation": "i",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ARTICLE",
+                "gender": "",
+                "explanation": "First inanimate article; the.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Mï",
+        "pronunciation": "mu",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "MODAL VERB",
+                "gender": "",
+                "explanation": "Used with another verb to indicate intention and possibility; would.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Nöda",
+        "pronunciation": "'nɔ.da",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "gender": "",
+                "explanation": "Situated below the normal elevation; low.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Nödaran",
+        "pronunciation": "'nɔ.da.ran",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "SECOND INANIMATE NOUN",
+                "gender": "",
+                "explanation": "A wide area situated below the common elevation of its surroundings; valley.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "O",
+        "pronunciation": "ɛ",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ARTICLE",
+                "gender": "",
+                "explanation": "Animate article; the.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Pim",
+        "pronunciation": "pim",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "PREPOSITION",
+                "gender": "",
+                "explanation": "Used to indicate a participant in an action; with.",
+                "example": "",
+                "exampleTranslation": "Usage example (translated)",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Pri",
+        "pronunciation": "pri",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "gender": "",
+                "explanation": "Having colour; coloured.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
         "word": "Q'adrasq",
-        "pronunciation": "'kja.drask",
+        "pronunciation": "kja.'drask",
         "uses": [
             {
                 "hasBadge": false,
@@ -237,7 +395,7 @@ externalDictionary = [
     },
     {
         "word": "Q'atcuq",
-        "pronunciation": "'kja.tsuk",
+        "pronunciation": "kja.'tsuk",
         "uses": [
             {
                 "hasBadge": false,
@@ -248,6 +406,64 @@ externalDictionary = [
                 "exampleTranslation": "",
                 "gloss": "",
                 "gender": "FIRST INANIMATE"
+            }
+        ]
+    },
+    {
+        "word": "Q'ïti",
+        "pronunciation": "kju.'ti",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "gender": "",
+                "explanation": "Intense.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "R'a",
+        "pronunciation": "ipa",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "ADJECTIVE",
+                "gender": "",
+                "explanation": "Situated above the normal elevation; high;",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Ran",
+        "pronunciation": "ran",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "SECOND INANIMATE NOUN",
+                "gender": "",
+                "explanation": "Solid part of the surface of a planet.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            },
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "SECOND INANIMATE NOUN",
+                "gender": "",
+                "explanation": "Portion of solid ground limited by boundaries.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
             }
         ]
     },
@@ -297,6 +513,86 @@ externalDictionary = [
         ]
     },
     {
+        "word": "Van",
+        "pronunciation": "ßan",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "VERB",
+                "gender": "",
+                "explanation": "To wash; to clean.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Zan",
+        "pronunciation": "ðan",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "CONJUNCTION",
+                "gender": "",
+                "explanation": "Used for comparison.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Zï",
+        "pronunciation": "ðu",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "PRONOUN",
+                "gender": "",
+                "explanation": "Singular nominative second person pronoun; you.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Zïc",
+        "pronunciation": "ðus",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "PRONOUN",
+                "gender": "",
+                "explanation": "Singular accusative second person pronoun; you.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Öm",
+        "pronunciation": "ɔm",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "PREPOSITION",
+                "gender": "",
+                "explanation": "Used to indicate place.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
         "word": "Ön",
         "pronunciation": "ɔn",
         "uses": [
@@ -314,6 +610,22 @@ externalDictionary = [
                 "badgeText": "",
                 "type": "NUMERAL",
                 "explanation": "One.",
+                "example": "",
+                "exampleTranslation": "",
+                "gloss": "help-less-ness"
+            }
+        ]
+    },
+    {
+        "word": "Čhaa",
+        "pronunciation": "ʒa.'ʔa",
+        "uses": [
+            {
+                "hasBadge": false,
+                "badgeText": "",
+                "type": "VERB",
+                "gender": "",
+                "explanation": "To think.",
                 "example": "",
                 "exampleTranslation": "",
                 "gloss": "help-less-ness"
